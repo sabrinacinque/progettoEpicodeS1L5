@@ -165,6 +165,11 @@ div p span{
     object-fit: cover; /* adattamento immagine*/  
 }
 
+.divSecondaSection p{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
 /*************************************FINE SECONDA SECTION*******************************/
 
 /*************************************INIZIO FOOTER*******************************************/
