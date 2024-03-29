@@ -1,0 +1,161 @@
+
+/***********IMPORTANTE:TESTATO SU DISPOSITIVO 430X932px,SAREBBE IPHONE 14 PRO MAX DEGLI STRUMENTI IN GOOGLE*/
+
+body{
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.2rem;
+    color: #393d41;
+    line-height: 1.65;
+}
+
+
+
+/************************************HEADER*********************************/
+
+#divHeader{        /*volendo mettere nell'header anche la parte sotto, ho dovuto creare due div diversi in quanto gli sfondi dell'immagine e della scritta non sono uguali*/
+    background-color: black;
+    padding: 30px;
+}
+
+
+header div img{
+    background-color: black;
+    width: 150px;
+
+}
+
+#divTitle{
+    background-image: url(../images/banner.jpg);
+    background-size: cover ;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 60px 30px 40px; 
+
+}
+
+header div h1{
+    color:  #25a2c3;
+    font-family: "Montserrat",sans-serif;
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 1;/*interlinea 1.5 come indicato nella traccia,distanziava troppo le due righe del titolo,ho dovuto mettere 1*/
+}
+
+header div p{
+    margin-top: 30px;   
+    /*font-size: 1.3rem;  = non ho cambiato il rem qui in quanto nella traccia
+    era segnato che il body dovesse avere 1.2rem. Anche se con 1.3 rem,quindi poco poco
+    più grande, mi trovavo con gli stessi "accapo linea" dell'immagine da copiare...ma ho pensato
+    che fosse meglio seguire la traccia*/
+}
+
+header div a{
+    background-color: #f04c2f;
+    color: white;
+    font-family: "Montserra",sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 30px;
+}
+
+/******************************FINE HEADER*********************************
+/******************************INIZIO MAIN*******************************/
+
+section{/*do i padding direttamente alle section perchè la parte arancione, il footer e l'header non li hanno*/
+    padding: 30px 30px 0; /* top, right/left, bottom */
+    margin-top: 40px;
+}
+
+/*************************PRIMA SECTION************************/
+section div h2{  /*gli h2 dentro i div, sono tutti uguali quindi li formatto una sola volta. I <p> invece sono formattati dal body*/
+    color: #25a2c3;
+    font-family: "Montserra",sans-serif;
+    font-weight: bold;
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+
+#imgNotebook{
+    width:300px;
+    border-radius: 50%;
+}
+/**************************FINE PRIMA SECTION*****************************/
+
+/**************************FORMATTAZIONE DIV ARANCIONE*****************************/
+
+#epicodeGarantisce{
+    margin-top: 50px;
+    background-color:#e22d0e ;
+    padding: 0 20px 50px; /* top, right/left, bottom */
+    
+}
+
+
+#epicodeGarantisce h2{
+    padding-top: 70px;
+    color: white;
+    font-family: "Montserra",sans-serif;
+    font-weight: bold;
+    font-size: 2.5rem;   
+    margin-bottom: 20px; 
+}
+
+#epicodeGarantisce p{
+    color: white;
+    font-style: oblique;
+}
+
+cite{
+    font-size: 1.7rem;
+}
+/**********************************FINE FORMATTAZIONE DIV ARANCIONE*************************************/
+/***********************************INIZIO SECONDA SECTION***********************/
+
+.imgSecondaSection{
+    width: 370px;
+    margin-bottom: 0px;
+}
+
+.divSecondaSection{
+    border:1px solid #dee1e3;
+    border-radius: 0% 0% 3% 3%;
+    padding-bottom:50px ;
+    margin-bottom: 30px;
+}
+
+/*************************************FINE SECONDA SECTION*******************************/
+
+/*************************************INIZIO FOOTER*******************************************/
+footer{
+    background-color: #25a2c3;
+    margin-top: 60px;
+    padding-top: 40px;
+    padding-bottom: 60px;
+    color: white;
+}
+
+footer h2{
+    font-family: "Montserra",sans-serif;
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+footer a{
+    color: white;
+}
+
+footer hr{
+    padding-top: 30px;
+    width: 50%;
+    margin: auto; 
+    border: none; 
+    border-bottom: 1px solid white;
+    
+}
+
+#pixabay{
+    font-size: 1rem;
+}
